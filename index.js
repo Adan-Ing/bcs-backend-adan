@@ -6,8 +6,8 @@ const jwt = require('jsonwebtoken');
 require('dotenv').config();
 
 const JWT_SECRET = process.env.JWT_SECRET || 'bcs_turismo_secret_2026';
-const NODO_NOMBRE = 'Guadalupe';
-const NODO_URL = 'https://bcs-backend-guadalupe-production-3f83.up.railway.app';
+const NODO_NOMBRE = 'adan';
+const NODO_URL = 'https://bcs-backend-adan-production.up.railway.app';
 
 const app = express();
 app.use(cors());
